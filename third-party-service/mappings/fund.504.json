@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/504"
+    },
+    "response": {
+        "status": 504,
+        "fixedDelayMilliseconds": 1000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": { } 
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/1"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 1,
+            "name": "Fundo BTG Pactual Dividendos FIQ FIA"
+        } 
+    }
+}

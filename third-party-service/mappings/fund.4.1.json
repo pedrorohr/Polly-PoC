@@ -1,0 +1,20 @@
+{
+    "scenarioName": "Three Seconds, Two Seconds, One Second",
+    "requiredScenarioState": "Started",
+    "newScenarioState": "Three Seconds Requested",
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/4"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 3000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 4,
+            "name": "Three Seconds, Two Seconds, One Second Fund"
+        } 
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            { "id": 1, "name": "Fundo BTG Pactual Dividendos FIQ FIA" },
+            { "id": 2, "name": "Fundo Az Quest Ações FIC FIA" },
+            { "id": 3, "name": "Three Seconds Fund" },
+            { "id": 4, "name": "Three Seconds, Two Seconds, One Second Fund" },
+            { "id": 5, "name": "Gateway Timeout, Gateway Timeout, Gateway Timeout, Working Fine Fund" },
+            { "id": 500, "name": "Internal Server Error" },
+            { "id": 504, "name": "Gateway Timeout" }
+        ]        
+    }
+}

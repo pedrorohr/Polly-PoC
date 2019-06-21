@@ -1,0 +1,20 @@
+{
+    "scenarioName": "Gateway Timeout, Gateway Timeout, Gateway Timeout, Working Fine Fund",
+    "requiredScenarioState": "Third Gateway Timeout Requested",
+    "newScenarioState": "Startup",
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/5"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 5,
+            "name": "Gateway Timeout, Gateway Timeout, Gateway Timeout, Working Fine Fund"
+        } 
+    }
+}

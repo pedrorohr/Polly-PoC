@@ -1,0 +1,17 @@
+{
+    "scenarioName": "Gateway Timeout, Gateway Timeout, Gateway Timeout, Working Fine Fund",
+    "requiredScenarioState": "Started",
+    "newScenarioState": "First Gateway Timeout Requested",
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/5"
+    },
+    "response": {
+        "status": 504,
+        "fixedDelayMilliseconds": 1000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": { } 
+    }
+}

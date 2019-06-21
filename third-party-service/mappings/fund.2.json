@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/2"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 2,
+            "name": "Fundo Az Quest Ações FIC FIA"
+        } 
+    }
+}

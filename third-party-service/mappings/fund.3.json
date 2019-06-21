@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/3"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 3000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 3,
+            "name": "Three Seconds Fund"
+        } 
+    }
+}

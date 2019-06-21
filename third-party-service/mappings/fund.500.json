@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/funds/500"
+    },
+    "response": {
+        "status": 500,
+        "fixedDelayMilliseconds": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "error": 851,
+            "description": "Null Pointer Exception"
+        } 
+    }
+}
